@@ -382,7 +382,6 @@ void GameController::EquipScreenState()
 	}
 	std::cout << "Which item would you like to equip?(Enter the number, 0 to exit): ";
 	std::cin.ignore(std::cin.rdbuf()->in_avail());
-	std::cin.clear();
 	std::cin >> response;
 	
 	if (response == 0)

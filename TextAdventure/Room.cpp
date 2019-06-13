@@ -29,26 +29,26 @@ Room::Room()
 			item = new Footwear(1); 
 			break;
 		case 5: 
-			item = new Weapon(1); 
+			enemy = new Enemy(); 
 			break;
 		case 6:
 			enemy = new Enemy();
 			//std::cout << "a wild enemy appears" << std::endl;
 			break;
 		case 7:
-			item = new Weapon(1);
+			enemy = new Enemy();
 			//std::cout << "you find a " << item->GetName() << std::endl;
 			break;
 		case 8:
-			item = new Armour(1);
+			enemy = new Enemy();
 			//std::cout << "you find a " << item->GetName() << std::endl;
 			break;
 		case 9:
-			item = new Headgear(1);
+			enemy = new Enemy();
 			//std::cout << "you find a " << item->GetName() << std::endl;
 			break;
 		case 10:
-			item = new Footwear(1);
+			enemy = new Enemy();
 			//std::cout << "you find a " << item->GetName() << std::endl;
 			break;
 	}
